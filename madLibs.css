@@ -1,0 +1,38 @@
+hide {
+    display: none;
+}
+body {
+    width: 43%;
+    margin: 7px auto;
+    padding: 5px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    min-width: 600px;
+}
+h1, h2, h3 {
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 0px;
+}
+h1, h3 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+h3 {
+    margin: 0px;
+}
+.subHeader {
+    font-family: 'Stalemate', cursive;
+    color: salmon;
+    font-size: 40px;
+    margin: 0px;
+}
+p {
+    line-height: 200%;
+    font-size: 150%;
+    word-spacing: 14px;
+    padding: 0 20px;
+}
+span {
+    color: salmon;
+    text-decoration: underline;
+}
