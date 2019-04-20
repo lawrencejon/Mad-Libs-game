@@ -1,33 +1,10 @@
-var firstAdjective = prompt("Enter an adjective");
-var secondAdjective = prompt("Enter another adjective");
-var firstNoun = prompt("Enter a noun");
-var thirdAdjective = prompt("Enter another adjective");
-var secondNoun = prompt("Enter another noun");
-var firstVerb = prompt("Enter a verb");
-var secondVerb = prompt("Enter another verb");
-var thirdVerb = prompt("Enter another verb");
-var thirdNoun = prompt("Enter another noun");
-var fourthVerb = prompt("Enter another verb");
-var fourthNoun = prompt("Enter another noun");
-var fifthVerb = prompt("Enter another verb");
-var fifthNoun = prompt("Enter another noun");
-var adverb = prompt("Enter an adverb");
-var sixthNoun = prompt("Enter another noun");
-var name = prompt("Enter your name");
-
-document.getElementById("firstAdjective").textContent = firstAdjective;
-document.getElementById("secondAdjective").textContent = secondAdjective;
-document.getElementById("thirdAdjective").textContent = thirdAdjective;
-document.getElementById("firstNoun").textContent = firstNoun;
-document.getElementById("secondNoun").textContent = secondNoun;
-document.getElementById("thirdNoun").textContent = thirdNoun;
-document.getElementById("fourthNoun").textContent = fourthNoun;
-document.getElementById("fifthNoun").textContent = fifthNoun;
-document.getElementById("sixthNoun").textContent = sixthNoun;
-document.getElementById("firstVerb").textContent = firstVerb;
-document.getElementById("secondVerb").textContent = secondVerb;
-document.getElementById("thirdVerb").textContent = thirdVerb;
-document.getElementById("fourthVerb").textContent = fourthVerb;
-document.getElementById("fifthVerb").textContent = fifthVerb;
-document.getElementById("adverb").textContent = adverb;
-document.getElementById("name").textContent = name;
+var spans = document.querySelectorAll("span");
+spanContent();
+function spanContent() {
+    var arr = [];
+    for(var i = 0; i < spans.length; i++) {
+        var word = prompt(`Enter a/n ${spans[i].textContent} (${i + 1} of ${spans.length})`);
+        arr.push(word);
+        spans[i].textContent = arr[i];
+    }
+}
