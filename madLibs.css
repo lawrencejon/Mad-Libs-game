@@ -1,3 +1,6 @@
+:root {
+    --subheader-color: rgb(250,128,114);
+}
 body {
     width: 43%;
     margin: 7px auto;
@@ -18,7 +21,7 @@ h3 {
 }
 .subHeader {
     font: bold 40px  'Stalemate', cursive;
-    color: salmon;
+    color: var(--subheader-color);
     margin: 0px;
 }
 p {
@@ -28,6 +31,6 @@ p {
     padding: 0 20px;
 }
 span {
-    color: salmon;
+    color: var(--subheader-color);
     text-decoration: underline;
 }
