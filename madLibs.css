@@ -14,16 +14,14 @@ h1, h2, h3 {
     margin: 0px;
 }
 h1, h3 {
-    font-family: 'Amatic SC', cursive;
-    font-weight: bold;
+    font: bold 'Amatic SC', cursive;
 }
 h3 {
     margin: 0px;
 }
 .subHeader {
-    font-family: 'Stalemate', cursive;
+    font: bold 40px  'Stalemate', cursive;
     color: salmon;
-    font-size: 40px;
     margin: 0px;
 }
 p {
