@@ -1,4 +1,4 @@
-var spans = document.querySelectorAll("span");
+var spans = $("span");
 fillInTheBlanks();
 
 function fillInTheBlanks() {
