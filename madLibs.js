@@ -8,4 +8,5 @@ function fillInTheBlanks() {
         arr.push(word);
         spans[i].textContent = arr[i];
     }
-}
+    $("body").css("visibility", "visible");
+} 
